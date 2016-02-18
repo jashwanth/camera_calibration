@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( camera_caliberation )
+find_package( OpenCV REQUIRED )
+add_executable( a.out  assignment2)
+target_link_libraries( a.out ${OpenCV_LIBS})
